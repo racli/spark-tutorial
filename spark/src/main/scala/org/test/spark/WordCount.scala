@@ -22,7 +22,7 @@ object WordCount {
       (word, 1)
     }
     .reduceByKey(_ + _)
-    .saveAsTextFile("food.counts.txt")
+    .saveAsTextFile("food-result.count.txt")
     
     
   }
